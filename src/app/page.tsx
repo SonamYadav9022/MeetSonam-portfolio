@@ -94,19 +94,20 @@ export default function Portfolio() {
       status: 'In Progress - Advancing AI Chatbot Interface'
     },
     {
-      title: 'SenseStamp - Swadeshi Food Integrity & Traceability System',
-      description: 'Group project focused on creating a blockchain-based system to ensure food authenticity and traceability in the Indian food supply chain.',
-      tech: ['Blockchain', 'Ethereum', 'Solidity', 'React', 'Node.js', 'IPFS'],
-      features: [
-        'Blockchain-based food traceability',
-        'Smart contracts for authenticity verification',
-        'Consumer transparency through QR code scanning',
-        'Integration with local food vendors and manufacturers',
-        'Real-time supply chain monitoring'
-      ],
-      role: 'Software Engineer',
-      status: 'Ongoing Group Project'
-    }
+    title: 'TaskFlow - Full Stack Task Management System',
+    description: 'A full-stack web application designed to manage tasks efficiently with structured data handling, authentication, and analytics-ready workflows.',
+    tech: ['React', 'Next.js', 'TypeScript', 'Prisma', 'SQLite', 'Bun'],
+    features: [
+      'User authentication with JWT-based access control',
+      'Create, update, delete, and manage tasks with status and priority',
+      'Relational data modeling for tasks and users',
+      'REST API integration between frontend and backend',
+      'Data validation and consistency across workflows'
+    ],
+    role: 'Full Stack Developer',
+    status: 'Completed'
+  }
+
   ]
 
   const specialAchievements = [
