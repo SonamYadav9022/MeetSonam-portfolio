@@ -1,0 +1,62 @@
+SONAM YADAV
+Computer Engineering Student | Data Analyst | AI Enthusiast
+
+📧 sonamyadav246810@gmail.com | 📱 +91 9834079327
+🔗 linkedin.com/in/sonam-yadav-02226b258 | 🔗 github.com/SonamYadav9022
+
+PROFESSIONAL SUMMARY
+Highly motivated B.E. Computer Science & Engineering student (Final year) with CGPA 7.73/10. 
+Specializing in Generative AI, Data Analytics, and Cloud technologies. Passionate about 
+mixing art + technology with creative leadership experience.
+
+TECHNICAL SKILLS
+• Programming Languages: Python, Java (DSA), SQL, TypeScript
+• Data Analytics: Power BI, Tableau, Excel, Pandas, NumPy
+• Web Development: Next.js, React, Prisma, SQLite
+• AI/ML: Generative AI, LLMs, RAG Systems, Prompt Engineering
+• Tools: Git & GitHub, Cloud Platforms
+
+CERTIFICATIONS
+• Oracle Cloud Infrastructure 2025 – Certified Generative AI Professional
+• Data Science Course – CodeWithHarry
+• DSA With Java – ApnaCollege
+
+EXPERIENCE
+Data Analyst Intern | Internship Studio | Jan 2025 – Apr 2025
+• Processed & analyzed 150+ records daily using Python/SQL/Excel
+• Built 4 interactive dashboards using Power BI and Tableau
+• Improved reporting efficiency for stakeholders
+
+PROJECTS
+SkillSage – AI-Powered Career Roadmap Generator
+• Full-stack project using Next.js & TypeScript
+• Generates personalized career paths using AI
+• Backend with Prisma + SQLite database
+• AI chatbot interface in development
+
+Smart Tourist App
+• Integrates AI + Blockchain for secure travel assistance
+• AI-powered travel recommendations
+• Blockchain-based secure transactions
+• Real-time travel assistance and smart itinerary planning
+
+EDUCATION
+B.E. Computer Science & Engineering | 2022–2026
+Dr. D. Y. Patil Institute of Engineering, Management & Research
+CGPA: 7.73/10
+
+XII | Pratibha Junior College, Pune | 85%
+
+LEADERSHIP & ACTIVITIES
+Creative Team Lead & Set Designer
+• Led artistic direction & execution in major competitions (Firodiya / Sakaal Karandak)
+• Managed teams of designers, artists, and stage visuals
+• Coordinated set design and stage management
+
+INTERESTS
+• Painting & Sketching
+• Design Aesthetics
+• Creative Problem Solving
+• Technology Innovation
+
+Available for: Data Analysis, AI/ML Projects, Full-stack Development, Creative Design
