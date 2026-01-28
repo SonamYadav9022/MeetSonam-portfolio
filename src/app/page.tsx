@@ -44,24 +44,24 @@ export default function Portfolio() {
     {
       title: 'Oracle Cloud Infrastructure 2025 – Certified Generative AI Professional',
       issuer: 'Oracle Corporation',
-      year: '2025',
+      year: 'September2025',
       validUntil: 'September 24, 2027',
       credentialId: '102709740OCI25GAIOCP',
-      link: '/oracle-certificate.pdf'
+      link: 'https://drive.google.com/file/d/1mrG9-mNpoz7ivgOndYHvoDvqjtml00j2/view?usp=drive_link'
     },
     {
       title: 'The Ultimate Job Ready Data Science Course',
       issuer: 'CodeWithHarry',
-      year: '2024',
+      year: 'September 2025',
       hours: '30+ hours of focused training',
-      link: '#'
+      link: 'https://drive.google.com/file/d/1odFBHBc8SOSDRwnCgwQrX6fOWNn5brsh/view?usp=sharing'
     },
     {
       title: 'DSA with Java',
       issuer: 'apnaCollege',
-      year: '2024',
+      year: ' May 2025',
       hours: '200+ hours intensive training',
-      link: '/java-dsa-certificate.pdf'
+      link: 'https://drive.google.com/file/d/1TqQxmBaJXTdsgEDP3aNuWyS_ztda1UOW/view?usp=sharing'
     }
   ]
 
@@ -104,7 +104,7 @@ export default function Portfolio() {
         'Integration with local food vendors and manufacturers',
         'Real-time supply chain monitoring'
       ],
-      role: 'Lead Blockchain & Software Engineer',
+      role: 'Software Engineer',
       status: 'Ongoing Group Project'
     }
   ]
@@ -114,10 +114,10 @@ export default function Portfolio() {
       title: 'Finalist - Smart India Hackathon (SIH) Grand Finale',
       organization: 'Smart India Hackathon',
       year: '2025',
-      role: 'Blockchain & Software Engineer',
+      role: 'Software Engineer',
       description: 'Selected as finalist in the prestigious national-level hackathon for developing innovative blockchain-based solutions.',
       highlights: [
-        'Led blockchain architecture design',
+        'blockchain architecture design',
         'Developed smart contracts for the solution',
         'Coordinated software development team',
         'Presented solution to industry experts and judges'
