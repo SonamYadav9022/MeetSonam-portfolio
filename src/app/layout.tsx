@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "MeetSonam",
   description:
-    "Welcome to MeetSonam – the personal portfolio of Sonam Yadav, showcasing her journey as a Computer Engineering student, Data Analyst, and AI Enthusiast.",
+    "Welcome to MeetSonam – the personal portfolio of Sonam Yadav, showcasing my journey as a Computer Engineering student, Data Analyst, and AI Enthusiast.",
   keywords: [
     "Sonam Yadav",
     "MeetSonam",

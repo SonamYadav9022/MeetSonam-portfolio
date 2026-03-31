@@ -27,18 +27,34 @@ export default function Portfolio() {
   }
 
   const skills = [
-    { name: 'Python', icon: Code, level: 90 },
-    { name: 'SQL', icon: Database, level: 85 },
-    { name: 'Power BI', icon: Database, level: 80 },
-    { name: 'Excel', icon: Database, level: 95 },
-    { name: 'Next.js', icon: Code, level: 85 },
-    { name: 'TypeScript', icon: Code, level: 80 },
-    { name: 'Java (DSA)', icon: Code, level: 75 },
-    { name: 'Git & GitHub', icon: Code, level: 80 },
-    { name: 'Generative AI', icon: Brain, level: 88 },
-    { name: 'RAG Systems', icon: Brain, level: 82 },
-    { name: 'LLM Prompt Engineering', icon: Brain, level: 95 }
-  ]
+  // Backend (CORE IDENTITY)
+  { name: 'Java', icon: Code, level: 90 },
+  { name: 'Spring Boot', icon: Code, level: 85 },
+  { name: 'REST API', icon: Code, level: 85 },
+  { name: 'JDBC', icon: Database, level: 80 },
+
+  // Frontend (IMPORTANT for Full Stack)
+  { name: 'JavaScript', icon: Code, level: 85 },
+  { name: 'React', icon: Code, level: 50 },
+  { name: 'Next.js', icon: Code, level: 80 },
+  { name: 'TypeScript', icon: Code, level: 70 },
+  { name: 'HTML/CSS', icon: Code, level: 90 },
+
+  // Database
+  { name: 'MySQL', icon: Database, level: 90 },
+
+  // Tools
+  { name: 'Git & GitHub', icon: Code, level: 85 },
+  { name: 'Postman', icon: Code, level: 80 },
+  { name: 'Vercel', icon: Code, level: 75 },
+  { name: 'Railway', icon: Code, level: 75 },
+
+  // Core Concepts
+  { name: 'DSA', icon: Brain, level: 80 },
+  { name: 'OOP', icon: Brain, level: 85 },
+  { name: 'System Design (Basics)', icon: Brain, level: 70 }
+];
+  
 
   const certifications = [
     {
@@ -50,13 +66,6 @@ export default function Portfolio() {
       link: 'https://drive.google.com/file/d/1mrG9-mNpoz7ivgOndYHvoDvqjtml00j2/view?usp=drive_link'
     },
     {
-      title: 'The Ultimate Job Ready Data Science Course',
-      issuer: 'CodeWithHarry',
-      year: 'September 2025',
-      hours: '30+ hours of focused training',
-      link: 'https://drive.google.com/file/d/1odFBHBc8SOSDRwnCgwQrX6fOWNn5brsh/view?usp=sharing'
-    },
-    {
       title: 'DSA with Java',
       issuer: 'apnaCollege',
       year: ' May 2025',
@@ -65,50 +74,55 @@ export default function Portfolio() {
     }
   ]
 
-  const experiences = [
-    {
-      title: 'Data Analyst Intern',
-      company: 'Internship Studio',
-      period: '1 Jan 2025 – 15 Feb 2025',
-      achievements: [
-        'Processed and analyzed 150+ daily records using Python/SQL/Excel',
-        'Developed 4 interactive dashboards with Power BI and Tableau',
-        'Enhanced data reporting efficiency for business stakeholders',
-        'Supported critical business decision-making through data insights'
-      ]
-    }
-  ]
-
+  
   const projects = [
-    {
-      title: 'SkillSage: Adaptive Career Roadmap Generator',
-      description: 'Full-stack application that analyzes user profiles and generates personalized career roadmaps using AI to combat generic career advice.',
-      tech: ['Next.js', 'TypeScript', 'Prisma', 'SQLite', 'AI'],
-      features: [
-        'Personalized career path generation',
-        '100% type safety with TypeScript',
-        'AI chatbot interface for real-time guidance',
-        'Clean, user-friendly design',
-        'Resolved ~90% of initial environment conflicts'
-      ],
-      status: 'In Progress - Advancing AI Chatbot Interface'
-    },
-    {
-    title: 'TaskFlow - Full Stack Task Management System',
-    description: 'A full-stack web application designed to manage tasks efficiently with structured data handling, authentication, and analytics-ready workflows.',
-    tech: ['React', 'Next.js', 'TypeScript', 'Prisma', 'SQLite', 'Bun'],
+  {
+    title: 'SkillSage - AI Career Roadmap Generator',
+    description: 'A full-stack AI-powered application that generates personalized career paths based on structured decision logic and user input.',
+    tech: ['Next.js', 'React', 'TypeScript', 'Node.js', 'OpenAI API', 'Tailwind CSS'],
     features: [
-      'User authentication with JWT-based access control',
-      'Create, update, delete, and manage tasks with status and priority',
-      'Relational data modeling for tasks and users',
-      'REST API integration between frontend and backend',
-      'Data validation and consistency across workflows'
+      'Generates personalized career roadmaps using structured decision logic',
+      'Integrated OpenAI API for intelligent response generation',
+      'Built reusable UI components with clean architecture',
+      'Implemented backend APIs for data processing and validation',
+      'Ensured smooth interaction between frontend and backend'
     ],
-    role: 'Full Stack Developer',
+    role: 'Backend Developer & API Integration (Group Project)',
+    github: 'https://github.com/SonamYadav9022/SkillSage',
     status: 'Completed'
-  }
+  },
 
-  ]
+  {
+    title: 'Task Manager - Full Stack Web Application',
+    description: 'A full-stack task management system built using Spring Boot and JDBC with complete CRUD functionality and real-world deployment.',
+    tech: ['Java', 'Spring Boot', 'JDBC', 'MySQL', 'REST API', 'HTML', 'CSS', 'JavaScript'],
+    features: [
+      'Built RESTful APIs using Spring Boot and JDBC (no ORM)',
+      'Implemented full CRUD operations for task management',
+      'Developed single-page frontend using vanilla JavaScript',
+      'Connected frontend with backend via REST APIs',
+      'Deployed application on Railway with environment-based configuration'
+    ],
+    github: 'https://github.com/SonamYadav9022/TaskManager-FullStack.git',
+    live: 'https://taskmanager-fullstack-production-edf1.up.railway.app',
+    status: 'Completed'
+  },
+
+  {
+    title: 'University Management System',
+    description: 'A full-stack web application to manage students, faculty, academic records, and administrative workflows with role-based access.',
+    tech: ['Java', 'Spring Boot', 'React', 'Tailwind CSS', 'MySQL', 'REST API'],
+    features: [
+      'Developing REST APIs using Spring Boot for multiple admin modules',
+      'Managing student, faculty, and academic data with MySQL',
+      'Designed responsive frontend using React and Tailwind CSS',
+      'Implemented role-based dashboards for administrative operations',
+      'Deploying backend on Railway and frontend on Vercel'
+    ],
+    github: 'https://github.com/SonamYadav9022/University-Management-System.git',
+    status: 'In Progress'
+  }
+];
 
   const specialAchievements = [
     {
@@ -142,7 +156,6 @@ export default function Portfolio() {
               {[
                 'About',
                 'Skills',
-                'Experience',
                 'Projects',
                 'Education',
                 'Certifications',
@@ -194,18 +207,20 @@ export default function Portfolio() {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-600 mb-6 font-medium">
-            Computer Engineering Student | Data Analyst | AI Enthusiast
+            Java Full Stack Developer | Spring Boot | React | python
           </p>
 
           <p className="text-lg text-gray-500 mb-8 max-w-3xl mx-auto">
-            I build intelligent, data-driven solutions using Python, SQL, Generative AI, and modern full-stack technologies.
-            With a passion for analytics, clean design, and creative problem-solving, I turn ideas into impactful real-world projects.
+            <p>
+            I am a Java Full Stack Developer currently building applications using Spring Boot and modern web technologies. 
+            I enjoy learning, solving problems, and improving my development skills through real projects.
+          </p>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/Sonam_Yadav_Resume.txt"
-              download="Sonam_Yadav_Resume.txt"
+              href="/Sonam_Yadav_Resume.pdf"
+              download
               className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-xl font-medium transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               <Download className="w-5 h-5" />
@@ -239,25 +254,25 @@ export default function Portfolio() {
                 </div>
 
                 <div className="space-y-4">
-                  <p className="text-lg text-gray-700">
-                    Highly motivated B.E. Computer Science & Engineering student (Final year) with a CGPA of <strong>7.73/10</strong>.
-                  </p>
-                  <p className="text-lg text-gray-700">
-                    Specializing in <span className="text-blue-600 font-semibold">Generative AI (LLMs, RAG)</span>,
-                    <span className="text-purple-600 font-semibold"> Data Analytics</span>, and
-                    <span className="text-blue-600 font-semibold"> Cloud</span> technologies.
-                  </p>
-                  <p className="text-lg text-gray-700">
-                    Passionate about mixing art + technology, with creative leadership experience as Creative Team Lead & Set Designer.
-                    Love painting, sketching, and design aesthetics.
-                  </p>
-                  <div className="flex flex-wrap gap-2 pt-4">
-                    <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200">Problem Solver</Badge>
-                    <Badge className="bg-purple-100 text-purple-800 hover:bg-purple-200">Creative Thinker</Badge>
-                    <Badge className="bg-green-100 text-green-800 hover:bg-green-200">Team Player</Badge>
-                    <Badge className="bg-orange-100 text-orange-800 hover:bg-orange-200">Detail Oriented</Badge>
-                  </div>
+                <p className="text-lg text-gray-700">
+                  I am a final-year Computer Engineering student currently learning and building applications using Java, Spring Boot, and modern web technologies.
+                </p>
+
+                <p className="text-lg text-gray-700">
+                  I enjoy solving problems and improving my development skills through real-world projects.
+                </p>
+
+                <p className="text-lg text-gray-700">
+                  Along with coding, I have a strong interest in art and design. I have experience as a Creative Team Lead and enjoy combining creativity with technology.
+                </p>
+
+                <div className="flex flex-wrap gap-2 pt-4">
+                  <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200">Problem Solver</Badge>
+                  <Badge className="bg-purple-100 text-purple-800 hover:bg-purple-200">Backend Focused</Badge>
+                  <Badge className="bg-green-100 text-green-800 hover:bg-green-200">Quick Learner</Badge>
+                  <Badge className="bg-orange-100 text-orange-800 hover:bg-orange-200">Creative Thinker</Badge>
                 </div>
+              </div>
               </div>
             </CardContent>
           </Card>
@@ -334,39 +349,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Experience</h2>
-
-          <div className="space-y-6">
-            {experiences.map((exp) => (
-              <Card key={exp.title} className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300">
-                <CardContent className="p-6">
-                  <div className="flex items-start justify-between mb-4">
-                    <div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-1">{exp.title}</h3>
-                      <p className="text-blue-600 font-medium">{exp.company}</p>
-                    </div>
-                    <div className="flex items-center gap-2 text-gray-500">
-                      <Calendar className="w-4 h-4" />
-                      <span className="text-sm">{exp.period}</span>
-                    </div>
-                  </div>
-                  <ul className="space-y-2">
-                    {exp.achievements.map((achievement, i) => (
-                      <li key={i} className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0" />
-                        <span className="text-gray-700">{achievement}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Projects Section */}
       <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -385,7 +367,9 @@ export default function Portfolio() {
 
                   {project.role && (
                     <div className="mb-3">
-                      <span className="text-sm font-semibold text-blue-600">Role: {project.role}</span>
+                      <span className="text-sm font-semibold text-blue-600">
+                      Role: {project.role}
+                      </span>
                     </div>
                   )}
 
@@ -398,6 +382,31 @@ export default function Portfolio() {
                   </div>
 
                   <div className="space-y-2 mb-4">
+                    <div className="flex gap-4 mt-4">
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1 text-sm text-blue-600 hover:underline"
+                      >
+                        <Github className="w-4 h-4" />
+                        GitHub
+                      </a>
+                    )}
+
+                    {project.live && (
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1 text-sm text-green-600 hover:underline"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                        Live Demo
+                      </a>
+                    )}
+                  </div>
                     {project.features.map((feature, i) => (
                       <div key={i} className="flex items-start gap-2">
                         <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0" />
@@ -434,7 +443,7 @@ export default function Portfolio() {
                     <h3 className="text-xl font-semibold text-gray-900">B.E. Computer Science & Engineering</h3>
                     <p className="text-blue-600 font-medium">Dr. D. Y. Patil Institute of Engineering, Management & Research, Akurdi</p>
                     <p className="text-gray-600">Nov 2022 – Jun 2026</p>
-                    <p className="text-gray-700 font-medium">CGPA: 7.73/10 (up to 6th semester)</p>
+                    <p className="text-gray-700 font-medium">CGPA: 7.98/10 (up to 7th semester)</p>
                   </div>
                 </div>
               </CardContent>
@@ -603,8 +612,8 @@ export default function Portfolio() {
 
                   <div className="mt-6 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-200">
                     <p className="text-sm text-gray-700">
-                      <strong className="text-blue-600">Available for:</strong> Data Analysis, AI/ML Projects, Full-stack Development,
-                      Creative Design, Blockchain Development
+                      <strong className="text-blue-600">Available for:</strong> Java Backend Development, Full Stack Web Development, API Development, Problem Solving Roles, Full-stack Development,
+                      Creative Design.
                     </p>
                   </div>
                 </div>
